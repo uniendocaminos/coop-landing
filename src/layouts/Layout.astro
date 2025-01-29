@@ -4,6 +4,7 @@ import '@fontsource/inter/latin-500.css';
 import { ViewTransitions } from 'astro:transitions';
 import Footer from '../components/layout/Footer.astro';
 import Header from '../components/layout/Header.astro';
+import WhatsappButton from '../components/WhatsappButton.astro';
 
 interface Props {
   description: string;
@@ -34,6 +35,9 @@ const { description, title } = Astro.props;
     <main>
       <slot />
     </main>
+    <div class="fixed bottom-12 right-12 ">
+      <WhatsappButton />
+    </div>
     <Footer />
     <style is:global>
       [x-cloak] {

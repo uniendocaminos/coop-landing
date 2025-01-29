@@ -10,6 +10,7 @@ module.exports = {
       current: 'currentColor',
       transparent: 'transparent',
       white: '#ffffff',
+      wspgreen: '#128c7e',
       primary: colors.stone,
     },
     fontFamily: {
