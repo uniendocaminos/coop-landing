@@ -1,0 +1,129 @@
+{
+    "brand": "Cooperativa Esmeralda",
+    "brand_end": "Omnipresence",
+    "index_title": "Cooperativa La Esmeralda",
+	"index_description": "Cooperativa La Esmeralda - Un emprendimiento que transforma vidas.",
+    "copyright": "© 2025 Cooperativa La Esmeralda",
+    "mission": "Our mission is to break down cultural barriers, creating a more seamless and accessible global communication for all individuals.",
+    "phone": "+54 9 341 6848663",
+    "global_mail": "global@logicomnipresence.com",
+
+    "heroTitle": "Bienvenidos a Cooperativa La Esmeralda – Un Nuevo Comienzo",
+    "heroSubtitle": "En Cooperativa La Esmeralda, no solo hacemos pan, ¡creamos un futuro mejor! Formada por un grupo de ex-presidiarios, nuestra cooperativa es un testimonio de segundas oportunidades, esfuerzo y trabajo en comunidad.",
+    "heroButton": "Conoce nuestra historia",
+
+    "servicesTitle": "Nuestros Servicios",
+    "service1": "Panificación Artesanal",
+    "service1Description": "En Cooperativa La Esmeralda, nos especializamos en la elaboración de productos de panadería artesanal, incluyendo medialunas, pastafloras, pepas, pan dulce y budines. Cada uno de nuestros productos es hecho a mano, utilizando ingredientes frescos y de la mejor calidad. Nuestro objetivo es ofrecer a nuestros clientes un sabor auténtico y una experiencia única.",
+    "service2": "Capacitación y Reinserción Social",
+    "service2Description": "Además de producir deliciosos productos de panadería, en Cooperativa La Esmeralda brindamos un espacio para la capacitación de personas que han estado en prisión. A través de programas de formación en panificación y otros oficios, les damos las herramientas necesarias para reintegrarse en la sociedad y empezar una nueva etapa en sus vidas. Creemos que el trabajo es una vía para la superación personal y el progreso social.",
+    "service3": "Venta Directa y Online",
+    "service3Description": "Ofrecemos nuestros productos tanto en nuestra tienda física en Calle Esmeralda 2021 como a través de pedidos online. Además, realizamos entregas a clubes y otros establecimientos que deseen disfrutar de nuestros productos frescos y artesanales. Si estás interesado en comprar, puedes hacer tu pedido a través de nuestras redes sociales o contactándonos directamente para más información.",
+
+    "FAQTitle": "Preguntas Frecuentes",
+    "FAQBlock1Title": "¿Qué productos ofrece la cooperativa?",
+    "FAQBlock1Content": "Ofrecemos una variedad de productos de panadería artesanal, como medialunas, pastafloras, pepas, pan dulce y budines. Todo hecho a mano con los mejores ingredientes y con mucho cariño. Puedes realizar pedidos online o visitarnos en nuestra tienda en Calle Esmeralda 2021.",
+    "FAQBlock2Title": "¿Cómo puedo comprar?",
+    "FAQBlock2Content": "Los pedidos se pueden realizar a través de nuestras redes sociales o contactándonos directamente. También puedes visitarnos en nuestra tienda física. Si necesitas productos a granel o para un evento, podemos coordinar entregas a través de encargues.",
+    "FAQBlock3Title": "¿Quiénes son los miembros de la cooperativa?",
+    "FAQBlock3Content": "La cooperativa está formada por ex-presidiarios que, con el apoyo de la Fundación Tercer Tiempo, buscan una nueva oportunidad a través del trabajo. Cada uno de nuestros miembros tiene una historia de superación personal, y a través de esta cooperativa, han aprendido el oficio de la panificación.",
+    "FAQBlock4Title": "¿Cómo puedo apoyar a la cooperativa?",
+    "FAQBlock4Content": "La mejor manera de apoyar a Cooperativa La Esmeralda es comprando nuestros productos. Además, puedes seguirnos en nuestras redes sociales, compartir nuestras publicaciones y recomendar nuestros productos a familiares y amigos. ¡Cada compra ayuda a nuestros miembros a continuar su camino de reinserción!",
+    "FAQBlock5Title": "¿La cooperativa también realiza entregas?",
+    "FAQBlock5Content": "Sí, realizamos entregas tanto a clubes, instituciones como a particulares en la zona. Puedes hacer tu pedido y coordinar la entrega con nosotros según tu ubicación.",
+    "FAQBlock6Title": "¿Ofrecen capacitaciones?",
+    "FAQBlock6Content": "Sí, uno de los objetivos principales de la cooperativa es la capacitación en panificación y otros oficios para nuestros miembros. Les brindamos las herramientas y conocimientos necesarios para que puedan reintegrarse a la sociedad y emprender de manera independiente. Creemos en el poder del trabajo como medio de crecimiento y redención.",
+
+
+
+
+    "AboutTitle": "Sobre la cooperativa",
+    "AboutContent": "Cooperativa La Esmeralda es una panadería gestionada por ex-presidiarios, respaldada por la Fundación Tercer Tiempo. Nos especializamos en productos de panificación tradicionales, elaborados con mucho amor y dedicación. Ofrecemos a nuestros clientes no solo productos de alta calidad, sino también una historia de superación y esperanza.",
+    "AboutButtonSubtitle": "Creamos oportunidades a través del trabajo y la superación.",
+    "AboutContentTitle": "Nuestra Misión",
+    "AboutContentContentA": "En Cooperativa La Esmeralda, nuestra misión es ofrecer a personas que han pasado por el sistema penitenciario una oportunidad de reinserción social a través del trabajo cooperativo. Nos enfocamos en brindar formación en panificación y otros oficios, ofreciendo productos artesanales de alta calidad, mientras creamos un ambiente de apoyo y crecimiento mutuo.",
+    "AboutContentContentB": "Nos dedicamos a transformar vidas, combinando el esfuerzo y la pasión por lo que hacemos con el objetivo de construir un futuro mejor para todos nuestros miembros. La cooperativa es un espacio donde el trabajo en equipo, el respeto y la superación personal son esenciales para alcanzar el éxito colectivo.",
+    "AboutContentContentC": "Creemos firmemente que a través del emprendimiento podemos cambiar nuestra realidad y contribuir positivamente a la comunidad. Cada producto que elaboramos es un reflejo de nuestra dedicación, esfuerzo y el deseo de aportar algo valioso.",
+    "AboutPageNumbersTitleA": "Años de Experiencia",
+    "AboutPageNumbersContentA": "7",
+    "AboutPageNumbersTitleB": "Miembros en el Proyecto",
+    "AboutPageNumbersContentB": "15",
+    "AboutPageNumbersTitleC": "Productos Elaborados",
+    "AboutPageNumbersContentC": "15000+",
+    "AboutPageNumbersTitleD": "Historias de Superación",
+    "AboutPageNumbersContentD": "50+",
+
+    "AboutPageValuesTitle": "Nuestros Valores",
+    "AboutPageValuesTitleA": "Excelencia",
+    "AboutPageValuesContentA": "En Cooperativa La Esmeralda nos comprometemos con la excelencia en cada producto que elaboramos. Nuestros panes, pastafloras, medialunas y budines son hechos a mano, con ingredientes frescos y de alta calidad. Cada uno de nuestros miembros trabaja con dedicación para ofrecer productos deliciosos que no solo alimentan, sino que también cuentan una historia de superación personal.",
+    "AboutPageValuesTitleB": "Trabajo en equipo",
+    "AboutPageValuesContentB": "El trabajo en equipo es el corazón de nuestra cooperativa. Somos un grupo diverso de ex-presidiarios, apoyados por la Fundación Tercer Tiempo, que nos hemos unido para construir una nueva vida a través del trabajo colaborativo. Cada miembro de la cooperativa aporta sus habilidades y esfuerzo para garantizar que nuestros productos sean de la más alta calidad. Juntos, creamos algo más grande que un simple negocio: una comunidad de apoyo y crecimiento.",
+    "AboutPageValuesTitleC": "Innovación",
+    "AboutPageValuesContentC": "La panificación no es solo un oficio, es una forma de vida en nuestra cooperativa. A pesar de que la tradición y las recetas caseras son fundamentales, también estamos abiertos a innovar en nuestros productos. Desde incorporar nuevos sabores hasta experimentar con técnicas modernas de panadería, en Cooperativa La Esmeralda buscamos siempre mejorar y ofrecer lo mejor a nuestros clientes.",
+    "AboutPageValuesTitleD": "Respeto",
+    "AboutPageValuesContentD": "En Cooperativa La Esmeralda, el respeto es fundamental, tanto hacia nuestros compañeros como hacia nuestra comunidad. Cada paso que damos está basado en el respeto mutuo, la confianza y el compromiso de transformar nuestras vidas a través del trabajo. Respetamos nuestras historias y las de nuestros clientes, sabiendo que lo que realmente importa es el esfuerzo y la oportunidad de redimirnos.",
+
+    "OurTeamTitle": "Conozca nuestro equipo",
+
+    "Team1Name": "Fernando Benítez",
+    "Team1Title": "Coordinador General",
+    
+    "Team2Name": "Albano",
+    "Team2Title": "Vicepresidente",
+
+    "Team3Name": "Alexis Gomez",
+    "Team3Title": "Panadero",
+
+    "AboutPageTitle": "Nuestra Historia",
+    "AboutPageContent": "Cooperativa La Esmeralda es un proyecto que nace de la colaboración entre la Fundación Tercer Tiempo y un grupo de ex-presidiarios que buscan una segunda oportunidad. A través de la panificación, estos hombres y mujeres han encontrado un camino de reinserción social y laboral, aprendiendo un oficio y construyendo un futuro mejor. En nuestra cooperativa, no solo hacemos pan, ¡creamos una comunidad de esperanza y trabajo en equipo!",
+
+
+
+
+
+
+
+    "TestimonyTitle": "Testimonios",
+
+    "Testimony1": "Excelentes productos y muy buena atención.",
+    "Testimony1Author": "Laura Warner",
+
+    "Testimony2": "Muy rico el pan y las masas.",
+    "Testimony2Author": "Diego Benitez",
+
+    "Testimony3": "Una amiga siempre traía masas secas de la Esmeralda, me llamaron la atención y desde ahí fuimos por más! Todo riquísimo.",
+    "Testimony3Author": "Ana Bel",
+
+    "Testimony4": "Excelente panadería, todo delicioso.",
+    "Testimony4Author": "Matias Aberiso",
+
+    "Testimony5": "Excelente atención. Albano, atención 10 puntos.",
+    "Testimony5Author": "Martin Botta",
+
+    "Testimony6": "Todo muy rico y fresco. Los recomiendo.",
+    "Testimony6Author": "Joana Aguirre",
+
+    "CTATitle": "Hagamos algo increíble juntos",
+    "CTAContent": "En Cooperativa La Esmeralda, cada compra contribuye al esfuerzo de nuestros miembros para construir un futuro mejor. Apóyanos y disfruta de productos artesanales de alta calidad, hechos con dedicación y amor.",
+    "CTAButton": "Contactanos",
+
+    "ContactPageTitle": "Trabajemos juntos",
+    "ContactPageSubtitle": "Nos encantaría saber más sobre vos y lo que podemos construir juntos.",
+
+    "footerBlockHeaderLinks": "Links",
+    "footerLinkInstagram": "Instagram",
+    "footerLinkInstagramHref": "https://www.instagram.com/cooperativaesmeralda/",
+    "footerLinkWhatsapp": "Whatsapp",
+    "footerLinkWhatsappHref": "https://wa.me/5493416848663",
+
+    
+    "footerBlockHeaderContent": "Content",
+    "footerLinkHome": "Home",
+    "footerLinkHomeHref": "/home",
+    "footerLinkAbout": "About",
+    "footerLinkAboutHref": "/about",
+    "footerLinkContact": "Contact",
+    "footerLinkContactHref": "/contact",
+    "footerLinkPrivacy": "Privacy Policy",
+    "footerLinkPrivacyHref": "/privacy"
+}

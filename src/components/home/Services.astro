@@ -1,22 +1,18 @@
 ---
+import loomies from "../../assets/i18n/en.json";
+
 const services = [
   {
-    step: '01',
-    name: 'Panificación Artesanal',
-    description:
-      'En Cooperativa La Esmeralda, nos especializamos en la elaboración de productos de panadería artesanal, incluyendo medialunas, pastafloras, pepas, pan dulce y budines. Cada uno de nuestros productos es hecho a mano, utilizando ingredientes frescos y de la mejor calidad. Nuestro objetivo es ofrecer a nuestros clientes un sabor auténtico y una experiencia única.',
+    name: loomies.service1,
+    description: loomies.service1Description,
   },
   {
-    step: '02',
-    name: 'Capacitación y Reinserción Social',
-    description:
-      'Además de producir deliciosos productos de panadería, en Cooperativa La Esmeralda brindamos un espacio para la capacitación de personas que han estado en prisión. A través de programas de formación en panificación y otros oficios, les damos las herramientas necesarias para reintegrarse en la sociedad y empezar una nueva etapa en sus vidas. Creemos que el trabajo es una vía para la superación personal y el progreso social.',
+    name: loomies.service2,
+    description: loomies.service2Description,
   },
   {
-    step: '03',
-    name: 'Venta Directa y Online',
-    description:
-      'Ofrecemos nuestros productos tanto en nuestra tienda física en Calle Esmeralda 2021 como a través de pedidos online. Además, realizamos entregas a clubes y otros establecimientos que deseen disfrutar de nuestros productos frescos y artesanales. Si estás interesado en comprar, puedes hacer tu pedido a través de nuestras redes sociales o contactándonos directamente para más información.',
+    name: loomies.service3,
+    description: loomies.service3Description,
   },
 ];
 ---
@@ -24,12 +20,12 @@ const services = [
 <section class="py-16 sm:py-20">
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="flex flex-col gap-12 sm:gap-16">
-      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Nuestros Servicios</h2>
+      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl" loom={loomies.servicesTitle}>
+        {loomies.servicesTitle}</h2>
       <div class="grid gap-8 lg:grid-cols-3">
         {
           services.map((service) => (
             <div class="bg-primary-500/10 dark:bg-primary-400/10 flex flex-col gap-12 rounded-3xl px-6 py-8">
-              <p class="text-sm">{service.step}</p>
               <div class="flex flex-col gap-4">
                 <h3 class="text-xl font-medium">{service.name}</h3>
                 <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
