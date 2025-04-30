@@ -1,31 +1,28 @@
 ---
+import loomies from "../../assets/i18n/en.json";
 const values = [
   [
     {
-      ref: '01',
-      name: 'Excelencia',
+      name: 'Excellence',
       description:
-        'En Cooperativa La Esmeralda nos comprometemos con la excelencia en cada producto que elaboramos. Nuestros panes, pastafloras, medialunas y budines son hechos a mano, con ingredientes frescos y de alta calidad. Cada uno de nuestros miembros trabaja con dedicación para ofrecer productos deliciosos que no solo alimentan, sino que también cuentan una historia de superación personal.',
+        'At Esmeralda Cooperative, we are committed to excellence in every product we make. Our breads, pastafloras, croissants, and cakes are handmade with fresh, high-quality ingredients. Each of our members works with dedication to offer delicious products that not only feed but also tell a story of personal overcoming.',
     },
     {
-      ref: '02',
-      name: 'Innovación',
+      name: 'Innovation',
       description:
-        'La panificación no es solo un oficio, es una forma de vida en nuestra cooperativa. A pesar de que la tradición y las recetas caseras son fundamentales, también estamos abiertos a innovar en nuestros productos. Desde incorporar nuevos sabores hasta experimentar con técnicas modernas de panadería, en Cooperativa La Esmeralda buscamos siempre mejorar y ofrecer lo mejor a nuestros clientes.',
+        'Baking is not just a trade, it’s a way of life in our cooperative. While tradition and homemade recipes are fundamental, we are also open to innovating in our products. From incorporating new flavors to experimenting with modern baking techniques, Esmeralda Cooperative is always seeking to improve and offer the best to our customers.',
     },
   ],
   [
     {
-      ref: '03',
-      name: 'Trabajo en Equipo',
+      name: 'Teamwork',
       description:
-        'El trabajo en equipo es el corazón de nuestra cooperativa. Somos un grupo diverso de ex-presidiarios, apoyados por la Fundación Tercer Tiempo, que nos hemos unido para construir una nueva vida a través del trabajo colaborativo. Cada miembro de la cooperativa aporta sus habilidades y esfuerzo para garantizar que nuestros productos sean de la más alta calidad. Juntos, creamos algo más grande que un simple negocio: una comunidad de apoyo y crecimiento.',
+        'Teamwork is the heart of our cooperative. We are a diverse group of former inmates, supported by the Tercer Tiempo Foundation, who have come together to build a new life through collaborative work. Each member contributes their skills and effort to ensure that our products are of the highest quality. Together, we create something bigger than just a business: a community of support and growth.',
     },
     {
-      ref: '04',
-      name: 'Respeto',
+      name: 'Respect',
       description:
-        'En Cooperativa La Esmeralda, el respeto es fundamental, tanto hacia nuestros compañeros como hacia nuestra comunidad. Cada paso que damos está basado en el respeto mutuo, la confianza y el compromiso de transformar nuestras vidas a través del trabajo. Respetamos nuestras historias y las de nuestros clientes, sabiendo que lo que realmente importa es el esfuerzo y la oportunidad de redimirnos.',
+        'At Esmeralda Cooperative, respect is fundamental, both towards our colleagues and our community. Every step we take is based on mutual respect, trust, and the commitment to transform our lives through work. We respect our stories and those of our customers, knowing that what truly matters is the effort and the opportunity to redeem ourselves.',
     },
   ],
 ];
@@ -34,17 +31,16 @@ const values = [
 <section class="py-16 sm:py-20">
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="flex flex-col gap-8 lg:gap-12">
-      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Nuestros valores</h2>
+      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl" loom={loomies.AboutPageValuesTitle}>{loomies.AboutPageValuesTitle}</h2>
       <div class="grid gap-8 lg:grid-cols-2">
         {
           values.map((column, index) => (
             <div class:list={['space-y-8', index === 1 && 'lg:mt-16']}>
               {column.map((value) => (
                 <div class="bg-primary-500/10 dark:bg-primary-400/10 flex flex-col gap-12 rounded-3xl px-6 py-8">
-                  <p class="text-sm">{value.ref}</p>
                   <div class="flex flex-col gap-4">
-                    <h3 class="text-xl font-medium">{value.name}</h3>
-                    <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
+                    <h3 class="text-xl font-medium" loom={value.name}>{value.name}</h3>
+                    <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg" loom={value.description}>
                       {value.description}
                     </p>
                   </div>

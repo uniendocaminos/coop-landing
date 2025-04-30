@@ -1,19 +1,21 @@
 ---
+import loomies from "../../assets/i18n/en.json";
+
 const stats = [
   {
-    name: 'Años de Experiencia',
+    name: 'Years of Experience',
     value: '7',
   },
   {
-    name: 'Miembros en el Proyecto',
+    name: 'Members in the Project',
     value: '15',
   },
   {
-    name: 'Productos Elaborados',
+    name: 'Products Made',
     value: '15000+',
   },
   {
-    name: 'Historias de Superación',
+    name: 'Stories of Overcoming Challenges',
     value: "50+",
   },
 ];
@@ -32,16 +34,16 @@ const stats = [
       <div class="flex flex-col gap-10">
         <!-- Mission description -->
         <div class="space-y-8 sm:space-y-12">
-          <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Nuestra Misión</h2>
+          <h2 class="text-3xl font-medium tracking-tight sm:text-4xl" loom={loomies.AboutContentTitle}>{loomies.AboutContentTitle}</h2>
           <div class="space-y-6">
-            <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
-              En Cooperativa La Esmeralda, nuestra misión es ofrecer a personas que han pasado por el sistema penitenciario una oportunidad de reinserción social a través del trabajo cooperativo. Nos enfocamos en brindar formación en panificación y otros oficios, ofreciendo productos artesanales de alta calidad, mientras creamos un ambiente de apoyo y crecimiento mutuo.
+            <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg" loom={loomies.AboutContentContentA}>
+              {loomies.AboutContentContentA}
             </p>
-            <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
-              Nos dedicamos a transformar vidas, combinando el esfuerzo y la pasión por lo que hacemos con el objetivo de construir un futuro mejor para todos nuestros miembros. La cooperativa es un espacio donde el trabajo en equipo, el respeto y la superación personal son esenciales para alcanzar el éxito colectivo.
+            <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg" loom={loomies.AboutContentContentB}>
+              {loomies.AboutContentContentB}
             </p>
-            <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
-              Creemos firmemente que a través del emprendimiento podemos cambiar nuestra realidad y contribuir positivamente a la comunidad. Cada producto que elaboramos es un reflejo de nuestra dedicación, esfuerzo y el deseo de aportar algo valioso.
+            <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg" loom={loomies.AboutContentContentC}>
+              {loomies.AboutContentContentC}
             </p>
           </div>
         </div>
@@ -51,8 +53,8 @@ const stats = [
           {
             stats.map((stat) => (
               <div class="border-primary-900/10 dark:border-primary-300/10 rounded-3xl border p-6">
-                <dt class="text-base">{stat.name}</dt>
-                <dd class="text-3xl font-medium tracking-tight">{stat.value}</dd>
+                <dt class="text-base" loom={stat.name}>{stat.name}</dt>
+                <dd class="text-3xl font-medium tracking-tight" loom={stat.value}>{stat.value}</dd>
               </div>
             ))
           }

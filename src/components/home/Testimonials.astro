@@ -1,46 +1,42 @@
 ---
+import loomies from "../../assets/i18n/en.json";
+
 const testimonials = [
 {
-    name: 'Laura Warner',
-    description: 'Cliente',
-    image: '/assets/testimonial-11.webp',
+    name: loomies.Testimony1Author,
+    description: loomies.TestimonyRole1,
     message:
-      '“Excelentes productos y muy buena atención.”',
+      loomies.Testimony1,
   },
   {
-    name: 'Diego Benitez',
-    description: 'Cliente',
-    image: '/assets/testimonial-12.webp',
+    name: loomies.Testimony2Author,
+    description: loomies.TestimonyRole1,
     message:
-      '“Muy rico el pan y las masas.”',
+      loomies.Testimony2,
   },
   {
-    name: 'Ana Bel',
-    description: 'Cliente',
-    image: '/assets/testimonial-13.webp',
+    name: loomies.Testimony3Author,
+    description: loomies.TestimonyRole1,
     message:
-      '“Una amiga siempre traía masas secas de la Esmeralda, me llamaron la atención y desde ahí fuimos por más! Todo riquísimo.”',
+      loomies.Testimony3,
   },
   {
-    name: 'Matias Ameriso',
-    description: 'Cliente',
-    image: '/assets/testimonial-16.webp',
+    name: loomies.Testimony4Author,
+    description: loomies.TestimonyRole1,
     message:
-      '“Excelente panadería, todo delicioso.”',
+      loomies.Testimony4,
   },
   {
-    name: 'Martin Botta',
-    description: 'Cliente',
-    image: '/assets/testimonial-17.webp',
+    name: loomies.Testimony5Author,
+    description: loomies.TestimonyRole1,
     message:
-      '“Excelente atención. Albano, atención 10 puntos.”',
+      loomies.Testimony5,
   },
   {
-    name: 'Joana Aguirre',
-    description: 'Cliente',
-    image: '/assets/testimonial-18.webp',
+    name: loomies.Testimony6Author,
+    description: loomies.TestimonyRole1,
     message:
-      '“Todo muy rico y fresco. Los recomiendo.”',
+      loomies.Testimony6,
   },
 ];
 ---
@@ -48,8 +44,8 @@ const testimonials = [
 <section class="py-16 sm:py-20">
   <div class="v mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="flex flex-col items-center gap-12 lg:gap-20">
-      <h2 class="mx-auto max-w-xl text-center text-3xl font-medium tracking-tight sm:text-4xl">
-        Testimonios 
+      <h2 class="mx-auto max-w-xl text-center text-3xl font-medium tracking-tight sm:text-4xl" loom={loomies.TestimonyTitle}>
+        {loomies.TestimonyTitle}
       </h2>
       <div
         class="divide-primary-900/10 dark:divide-primary-300/10 grid divide-y lg:grid-cols-3 lg:divide-x lg:divide-y-0"
@@ -58,12 +54,12 @@ const testimonials = [
           testimonials.map((testimonial) => (
             <figure class="flex max-w-lg bg-green-500 lg:w-full flex-col items-center gap-6 py-8 lg:px-8 lg:py-0">
               <div class="flex flex-row gap-2">
-                {[...Array(3)].map(() => (
+                {[...Array(5)].map(() => (
                   <svg
-                    class="text-primary-600 dark:text-primary-400 h-6 w-6"
+                    class="h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
-                    fill="currentColor"
+                    fill="#F9C706"
                     aria-hidden="true"
                   >
                     <path d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z" />
@@ -71,12 +67,12 @@ const testimonials = [
                 ))}
               </div>
               <blockquote class="text-primary-950/70 dark:text-primary-200/70 text-center text-lg italic leading-loose">
-                <p>{testimonial.message}</p>
+                <p loom={testimonial.message}>{testimonial.message}</p>
               </blockquote>
               <figcaption class="flex flex-col gap-4">
                 <div class="text-center">
-                  <div class="text-base font-medium">{testimonial.name}</div>
-                  <div class="text-primary-950/70 dark:text-primary-200/70 text-sm">
+                  <div class="text-base font-medium" loom={testimonial.name}>{testimonial.name}</div>
+                  <div class="text-primary-950/70 dark:text-primary-200/70 text-sm" loom={testimonial.description}>
                     {testimonial.description}
                   </div>
                 </div>

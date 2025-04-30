@@ -1,40 +1,42 @@
 ---
+import loomies from "../../assets/i18n/en.json";
+
 const features = [
 {
     id: 'faq-1',
-    name: '¿Qué productos ofrece la cooperativa?',
+    name: loomies.FAQBlock1Title,
     description:
-      'Ofrecemos una variedad de productos de panadería artesanal, como medialunas, pastafloras, pepas, pan dulce y budines. Todo hecho a mano con los mejores ingredientes y con mucho cariño. Puedes realizar pedidos online o visitarnos en nuestra tienda en Calle Esmeralda 2021.',
+      loomies.FAQBlock1Content,
   },
   {
     id: 'faq-2',
-    name: '¿Cómo puedo realizar un pedido?',
+    name: loomies.FAQBlock2Title,
     description:
-      'Los pedidos se pueden realizar a través de nuestras redes sociales o contactándonos directamente. También puedes visitarnos en nuestra tienda física. Si necesitas productos a granel o para un evento, podemos coordinar entregas a través de encargues.',
+      loomies.FAQBlock2Content,
   },
   {
     id: 'faq-3',
-    name: '¿Quiénes son los miembros de la cooperativa?',
+    name: loomies.FAQBlock3Title,
     description:
-      'La cooperativa está formada por ex-presidiarios que, con el apoyo de la Fundación Tercer Tiempo, buscan una nueva oportunidad a través del trabajo. Cada uno de nuestros miembros tiene una historia de superación personal, y a través de esta cooperativa, han aprendido el oficio de la panificación.',
+      loomies.FAQBlock3Content,
   },
   {
     id: 'faq-4',
-    name: '¿Cómo puedo apoyar a la cooperativa?',
+    name: loomies.FAQBlock4Title,
     description:
-      'La mejor manera de apoyar a Cooperativa La Esmeralda es comprando nuestros productos. Además, puedes seguirnos en nuestras redes sociales, compartir nuestras publicaciones y recomendar nuestros productos a familiares y amigos. ¡Cada compra ayuda a nuestros miembros a continuar su camino de reinserción!',
+      loomies.FAQBlock4Content,
   },
   {
     id: 'faq-5',
-    name: '¿La cooperativa también realiza entregas?',
+    name: loomies.FAQBlock5Title,
     description:
-      'Sí, realizamos entregas tanto a clubes, instituciones como a particulares en la zona. Puedes hacer tu pedido y coordinar la entrega con nosotros según tu ubicación.',
+      loomies.FAQBlock5Content,
   },
   {
     id: 'faq-6',
-    name: '¿Ofrecen capacitaciones?',
+    name: loomies.FAQBlock6Title,
     description:
-      'Sí, uno de los objetivos principales de la cooperativa es la capacitación en panificación y otros oficios para nuestros miembros. Les brindamos las herramientas y conocimientos necesarios para que puedan reintegrarse a la sociedad y emprender de manera independiente. Creemos en el poder del trabajo como medio de crecimiento y redención.',
+      loomies.FAQBlock6Content,
   },
 ];
 ---
@@ -42,7 +44,7 @@ const features = [
 <section class="py-16 sm:py-20">
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="grid gap-12 lg:grid-cols-3 lg:gap-8">
-      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Preguntas Frecuentes (FAQ)</h2>
+      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl" loom={loomies.FAQTitle}>{loomies.FAQTitle}</h2>
       <div class="lg:col-span-2">
         <dl
           class="-mt-3"
@@ -69,7 +71,7 @@ const features = [
                     x-bind:aria-expanded="isOpen.toString()"
                   >
                     <div class="group-focus-visible:outline-primary-950 dark:group-focus-visible:outline-primary-200 flex items-center justify-between rounded-3xl group-focus-visible:outline group-focus-visible:outline-2 group-focus-visible:outline-offset-2">
-                      <span class="font-medium">{feature.name}</span>
+                      <span class="font-medium" loom={feature.name}>{feature.name}</span>
                       <span class="ml-6 flex h-7 items-center">
                         <svg
                           class="text-primary-600 dark:text-primary-400 h-6 w-6 rotate-0 transform transition duration-200 ease-in-out"
@@ -86,7 +88,7 @@ const features = [
                   </button>
                 </dt>
                 <dd class="pb-6 pr-6" id={feature.id} x-show="isOpen" x-cloak x-collapse>
-                  <p class="text-primary-950/70 dark:text-primary-200/70 text-base">
+                  <p class="text-primary-950/70 dark:text-primary-200/70 text-base" loom={feature.description}>
                     {feature.description}
                   </p>
                 </dd>

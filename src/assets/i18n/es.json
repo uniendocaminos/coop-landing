@@ -34,10 +34,12 @@
     "FAQBlock6Title": "¿Ofrecen capacitaciones?",
     "FAQBlock6Content": "Sí, uno de los objetivos principales de la cooperativa es la capacitación en panificación y otros oficios para nuestros miembros. Les brindamos las herramientas y conocimientos necesarios para que puedan reintegrarse a la sociedad y emprender de manera independiente. Creemos en el poder del trabajo como medio de crecimiento y redención.",
 
-
-
-
     "AboutTitle": "Sobre la cooperativa",
+    "AboutHeadingTitle": "Sobre nosotros",
+    "AboutHeadingSubtitle": "Creamos oportunidades a través del trabajo y la mejora.",
+    "AboutWhoWeAreTitle": "Quiénes Somos",
+    "AboutWhoWeAreCTA": "Conozca más sobre nosotros",
+
     "AboutContent": "Cooperativa La Esmeralda es una panadería gestionada por ex-presidiarios, respaldada por la Fundación Tercer Tiempo. Nos especializamos en productos de panificación tradicionales, elaborados con mucho amor y dedicación. Ofrecemos a nuestros clientes no solo productos de alta calidad, sino también una historia de superación y esperanza.",
     "AboutButtonSubtitle": "Creamos oportunidades a través del trabajo y la superación.",
     "AboutContentTitle": "Nuestra Misión",
@@ -77,11 +79,7 @@
     "AboutPageTitle": "Nuestra Historia",
     "AboutPageContent": "Cooperativa La Esmeralda es un proyecto que nace de la colaboración entre la Fundación Tercer Tiempo y un grupo de ex-presidiarios que buscan una segunda oportunidad. A través de la panificación, estos hombres y mujeres han encontrado un camino de reinserción social y laboral, aprendiendo un oficio y construyendo un futuro mejor. En nuestra cooperativa, no solo hacemos pan, ¡creamos una comunidad de esperanza y trabajo en equipo!",
 
-
-
-
-
-
+    "TestimonyRole1": "Cliente",
 
     "TestimonyTitle": "Testimonios",
 

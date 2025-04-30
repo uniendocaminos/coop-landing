@@ -35,6 +35,11 @@
     "FAQBlock6Content": "Yes, one of the main goals of the cooperative is to provide training in baking and other trades to our members. We provide them with the tools and knowledge they need to reintegrate into society and start their own businesses. We believe in the power of work as a means of growth and redemption.",
 
     "AboutTitle": "About the cooperative",
+    "AboutHeadingTitle": "About us",
+    "AboutHeadingSubtitle": "We create opportunities through work and improvement.",
+    "AboutWhoWeAreTitle": "Who we are",
+    "AboutWhoWeAreCTA": "Know more from us",
+
     "AboutContent": "Esmeralda Cooperative is a bakery run by former inmates, supported by the Tercer Tiempo Foundation. We specialize in traditional bakery products, made with love and dedication. We offer our customers not only high-quality products but also a story of overcoming challenges and hope.",
     "AboutButtonSubtitle": "We create opportunities through work and personal growth.",
     "AboutContentTitle": "Our Mission",
@@ -60,6 +65,8 @@
     "AboutPageValuesTitleD": "Respect",
     "AboutPageValuesContentD": "At Esmeralda Cooperative, respect is fundamental, both towards our colleagues and our community. Every step we take is based on mutual respect, trust, and the commitment to transform our lives through work. We respect our stories and those of our customers, knowing that what truly matters is the effort and the opportunity to redeem ourselves.",
 
+
+    
     "OurTeamTitle": "Meet our team",
 
     "Team1Name": "Fernando Benítez",
@@ -75,6 +82,8 @@
     "AboutPageContent": "Esmeralda Cooperative is a project born from the collaboration between the Tercer Tiempo Foundation and a group of former inmates seeking a second chance. Through baking, these men and women have found a path to social and labor reintegration, learning a trade and building a better future. In our cooperative, we don’t just make bread, we create a community of hope and teamwork!",
 
     "TestimonyTitle": "Testimonials",
+
+    "TestimonyRole1": "Customer",
 
     "Testimony1": "Excellent products and very good service.",
     "Testimony1Author": "Laura Warner",
