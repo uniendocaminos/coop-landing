@@ -115,13 +115,13 @@
     "footerLinkWhatsappHref": "https://wa.me/5493416848663",
 
     
-    "footerBlockHeaderContent": "Content",
-    "footerLinkHome": "Home",
+    "footerBlockHeaderContent": "Contenido",
+    "footerLinkHome": "Inicio",
     "footerLinkHomeHref": "/home",
-    "footerLinkAbout": "About",
+    "footerLinkAbout": "Nosotros",
     "footerLinkAboutHref": "/about",
-    "footerLinkContact": "Contact",
+    "footerLinkContact": "Contacto",
     "footerLinkContactHref": "/contact",
-    "footerLinkPrivacy": "Privacy Policy",
+    "footerLinkPrivacy": "Políticas de privacidad",
     "footerLinkPrivacyHref": "/privacy"
 }

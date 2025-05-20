@@ -22,7 +22,7 @@ const bottomLinks = [
     header: 'Contenido',
     links: [
       {
-        name: 'Home',
+        name: 'Inicio',
         href: '/',
         isExternal: false,
       },
@@ -61,10 +61,10 @@ const bottomLinks = [
           src="logo.png"
           alt="Logo Cooperativa Esmeralda"
         />
-        <p class="text-primary-950/70 dark:text-primary-200/70 text-base">
-          Cooperativa La Esmeralda - Un emprendimiento que transforma vidas.
+        <p class="text-primary-950/70 dark:text-primary-200/70 text-base" loom={loomies.index_description}>
+          {loomies.index_description}
         </p>
-        <p class="text-primary-950/70 dark:text-primary-200/70 text-sm">© 2025 Cooperativa La Esmeralda</p>
+        <p class="text-primary-950/70 dark:text-primary-200/70 text-sm" loom={loomies.copyright}>{loomies.copyright}</p>
       
     <LanguageSelector />
       </div>
